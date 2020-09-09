@@ -1,8 +1,8 @@
 def parrot(noise = "Squawk!")
   puts noise
-  puts "Squawk! #{noise}"
+  puts "#{noise}"
   return "Pretty bird!"
 end
 
 parrot 
-parrot 
+parrot ("Squawk!")
